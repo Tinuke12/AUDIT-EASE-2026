@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Audit Dashboard</title>
+
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background: #f4f6f9;
+        margin: 0;
+      }
+
+      /* NAVBAR */
+
+      .navbar {
+        background: #0d2b52;
+        color: white;
+        display: flex;
+        align-items: center;
+        padding: 15px 30px;
+      }
+
+      .logo {
+        font-size: 28px;
+        font-weight: bold;
+        margin-right: 40px;
+      }
+
+      .navbar a {
+        color: white;
+        text-decoration: none;
+        margin-right: 25px;
+        font-size: 16px;
+      }
+
+      .navbar .add {
+        margin-left: auto;
+        background: #3d5a98;
+        padding: 8px 15px;
+        border-radius: 6px;
+      }
+
+      /* CONTAINER */
+
+      .container {
+        padding: 25px;
+      }
+
+      /* REPORTING BAR */
+
+      .scope {
+        background: white;
+        padding: 15px 20px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+      }
+
+      /* GRID */
+
+      .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 20px;
+      }
+
+      /* CARDS */
+
+      .card {
+        background: white;
+        padding: 20px;
+        border-radius: 12px;
+        box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+      }
+
+      .card h3 {
+        margin-top: 0;
+      }
+
+      /* GET STARTED */
+
+      .get-item {
+        background: #f3f6fb;
+        padding: 12px;
+        margin-bottom: 10px;
+        border-radius: 8px;
+        cursor: pointer;
+      }
+
+      /* PROGRESS */
+
+      .progress {
+        text-align: center;
+      }
+
+      .circle {
+        width: 160px;
+        height: 160px;
+        border-radius: 50%;
+        background: conic-gradient(#1f4a7c 60%, #d9dee7 0);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+      }
+
+      .circle span {
+        background: white;
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 28px;
+        font-weight: bold;
+      }
+
+      /* RISK GRID */
+
+      .risk-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 40px);
+        grid-gap: 5px;
+        margin-top: 10px;
+      }
+
+      .risk-grid div {
+        width: 40px;
+        height: 40px;
+        border-radius: 4px;
+      }
+
+      .low {
+        background: #1e3c64;
+      }
+      .med {
+        background: #f6b44b;
+      }
+      .high {
+        background: #ef5b2a;
+      }
+      .safe {
+        background: #3fb36b;
+      }
+
+      /* LIST */
+
+      .list li {
+        margin-bottom: 8px;
+      }
+
+      /* ACTIVITY */
+
+      .activity {
+        font-size: 14px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+
+    <div class="navbar">
+      <div class="logo">Audit</div>
+
+      <a href="#">Home</a>
+      <a href="#">Clients</a>
+      <a href="#">ICFR</a>
+      <a href="#">Journals</a>
+      <a href="#">Testing</a>
+      <a href="#">FS Builder</a>
+      <a href="#">Review</a>
+      <a href="#">Admin</a>
+
+      <div class="add">+ Add Client</div>
+    </div>
+
+    <div class="container">
+      <!-- REPORTING SCOPE -->
+
+      <div class="scope">
+        <b>Reporting Scope</b>
+
+        &nbsp;&nbsp;Statutory AFS: 2025 & 2024 (Audited)
+        &nbsp;&nbsp;Supplementary: Five-Year Summary (Unaudited)
+        &nbsp;&nbsp;Sector: Manufacturing &nbsp;&nbsp;Currency: NGN
+      </div>
+
+      <div class="grid">
+        <!-- GET STARTED -->
+
+        <div class="card">
+          <h3>Get Started</h3>
+
+          <div class="get-item">Create new client</div>
+          <div class="get-item">Set up template</div>
+          <div class="get-item">Assign team</div>
+          <div class="get-item">Begin audit</div>
+        </div>
+
+        <!-- PROGRESS -->
+
+        <div class="card progress">
+          <h3>Audit Progress</h3>
+
+          <div class="circle">
+            <span>60%</span>
+          </div>
+
+          <p>Planning &nbsp;&nbsp; Fieldwork &nbsp;&nbsp; Review</p>
+        </div>
+
+        <!-- RISK -->
+
+        <div class="card">
+          <h3>Risk & Controls</h3>
+
+          <p>ABC Corp - <b>In Progress</b></p>
+
+          <div class="risk-grid">
+            <div class="high"></div>
+            <div class="med"></div>
+            <div class="safe"></div>
+
+            <div class="high"></div>
+            <div class="med"></div>
+            <div class="med"></div>
+
+            <div class="low"></div>
+            <div class="high"></div>
+            <div class="med"></div>
+          </div>
+
+          <p style="margin-top: 10px">Low → High</p>
+        </div>
+
+        <!-- DOCUMENTS -->
+
+        <div class="card">
+          <h3>Documents</h3>
+
+          <h1>15</h1>
+
+          <p>Uploaded</p>
+
+          <p>Reviewed</p>
+
+          <p>Approved</p>
+        </div>
+
+        <!-- ACTIVITY -->
+
+        <div class="card">
+          <h3>Activity</h3>
+
+          <div class="activity">
+            <p>Alex Johnson added 3 documents</p>
+            <p>Sarah Smith reviewed revenue</p>
+            <p>David Brown uploaded TB</p>
+          </div>
+        </div>
+
+        <!-- PROCESSING -->
+
+        <div class="card">
+          <h3>Processing Summary</h3>
+
+          <ul class="list">
+            <li>214 Trial Balance lines analyzed</li>
+            <li>98% auto-classified</li>
+            <li>4 items required review</li>
+            <li>Trial Balance balanced ✔</li>
+            <li>Statements reconciled ✔</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

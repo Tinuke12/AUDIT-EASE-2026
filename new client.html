@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create New Client</title>
+  </head>
+
+  <body>
+    <form id="clientForm">
+      <table>
+        <tr>
+          <td><label>Client Name:</label></td>
+          <td><input type="text" name="clientName" /></td>
+        </tr>
+
+        <tr>
+          <td><label>Reporting Year:</label></td>
+          <td><input type="text" name="reportingYear" /></td>
+        </tr>
+
+        <tr>
+          <td><label>Reporting Date:</label></td>
+          <td><input type="text" name="reportingDate" /></td>
+        </tr>
+
+        <tr>
+          <td><label>Currency:</label></td>
+          <td><input type="text" name="currency" /></td>
+        </tr>
+
+        <tr>
+          <td><label>Select Organisation Type:</label></td>
+          <td>
+            <select name="orgType">
+              <option value="private">Private</option>
+              <option value="public">Public</option>
+              <option value="nonprofit">Non-Profit</option>
+            </select>
+          </td>
+        </tr>
+
+        <tr>
+          <td><label>Upload Trial Balance:</label></td>
+          <td><input type="file" name="tb" /></td>
+        </tr>
+      </table>
+
+      <br />
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <script>
+      document
+        .getElementById("clientForm")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+
+          window.location.href = "dashboard.html";
+        });
+    </script>
+  </body>
+</html>
