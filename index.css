@@ -471,3 +471,883 @@ h3 {
 }
 
 /* page 8 */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 900px;
+  margin: auto;
+  background: white;
+  padding: 40px;
+  line-height: 1.7;
+}
+
+h3 {
+  margin-top: 30px;
+  border-bottom: 2px solid black;
+  padding-bottom: 5px;
+}
+
+h4 {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.policy-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.policy-table th,
+.policy-table td {
+  border-bottom: 1px solid #ccc;
+  padding: 8px;
+}
+
+.policy-table th {
+  background: #f0f0f0;
+  text-align: left;
+}
+
+.editable {
+  background: #fff4a3;
+  padding: 2px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 900px;
+  margin: auto;
+  background: white;
+  padding: 40px;
+  line-height: 1.7;
+}
+
+h3 {
+  margin-top: 30px;
+  border-bottom: 2px solid black;
+  padding-bottom: 5px;
+}
+
+h4 {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+p {
+  margin-top: 10px;
+}
+
+.editable {
+  background: #fff4a3;
+  padding: 2px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 900px;
+  margin: auto;
+  background: white;
+  padding: 40px;
+  line-height: 1.7;
+}
+
+h2 {
+  margin-top: 40px;
+  border-bottom: 3px solid black;
+  padding-bottom: 5px;
+}
+
+h3 {
+  margin-top: 30px;
+  border-bottom: 1px solid #000;
+  padding-bottom: 5px;
+}
+
+h4 {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.currency-table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+.currency-table th,
+.currency-table td {
+  border-bottom: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+
+.editable {
+  background: #fff4a3;
+  padding: 2px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 900px;
+  margin: auto;
+  background: white;
+  padding: 40px;
+  line-height: 1.7;
+}
+
+h2 {
+  margin-top: 30px;
+  border-bottom: 3px solid black;
+  padding-bottom: 5px;
+}
+
+h4 {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+p {
+  margin-top: 10px;
+}
+
+.editable {
+  background: #fff4a3;
+  padding: 2px;
+}
+
+/* page 9 */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1000px;
+  margin: auto;
+  background: white;
+  padding: 40px;
+}
+
+h3 {
+  margin-top: 30px;
+  border-bottom: 2px solid black;
+  padding-bottom: 5px;
+}
+
+h4 {
+  margin-top: 25px;
+}
+
+.financial-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.financial-table th,
+.financial-table td {
+  border-bottom: 1px solid #ccc;
+  padding: 8px;
+  text-align: right;
+}
+
+.financial-table th:first-child,
+.financial-table td:first-child {
+  text-align: left;
+}
+
+.total {
+  font-weight: bold;
+  border-top: 2px solid black;
+}
+
+td[contenteditable] {
+  background: #fff6a5;
+}
+
+/* page 10 */
+
+<div class="container">
+
+<h4>Depreciation recognised on right-of-use assets</h4>
+
+<p>
+Depreciation recognised on each class of right-of-use assets is presented below.
+It includes depreciation expensed in profit or loss as well as depreciation capitalised to other assets.
+</p>
+
+<table class="financial-table">
+
+<tr>
+<th>Asset</th>
+<th>2024</th>
+<th>2023</th>
+</tr>
+
+<tr>
+<td>Buildings</td>
+<td contenteditable="true">24,977,141</td>
+<td contenteditable="true">24,885,703</td>
+</tr>
+
+</table>
+
+
+<h3>5. Cash and cash equivalents</h3>
+
+<p>Cash and cash equivalents consist of:</p>
+
+<table class="financial-table">
+
+<tr>
+<th></th>
+<th>2024</th>
+<th>2023</th>
+</tr>
+
+<tr>
+<td>Bank balances</td>
+<td contenteditable="true">8,637,974</td>
+<td contenteditable="true">22,580,629</td>
+</tr>
+
+</table>
+
+
+<h4>Exposure to currency risk</h4>
+
+<table class="financial-table">
+
+<tr>
+<th>Currency</th>
+<th>2024</th>
+<th>2023</th>
+</tr>
+
+<tr>
+<td>Naira</td>
+<td contenteditable="true">8,637,974</td>
+<td contenteditable="true">22,580,629</td>
+</tr>
+
+</table>
+
+
+<h3>6. Trade and other receivables</h3>
+
+<h4>Financial instruments</h4>
+
+<table class="financial-table">
+
+<tr>
+<th></th>
+<th>2024</th>
+<th>2023</th>
+</tr>
+
+<tr>
+<td>Related party receivable</td>
+<td contenteditable="true">17,000,000</td>
+<td contenteditable="true">17,000,000</td>
+</tr>
+
+<tr>
+<td>Rent receivable</td>
+<td contenteditable="true">9,000,000</td>
+<td contenteditable="true">-</td>
+</tr>
+
+</table>
+
+
+<h4>Non-financial instruments</h4>
+
+<table class="financial-table">
+
+<tr>
+<th></th>
+<th>2024</th>
+<th>2023</th>
+</tr>
+
+<tr>
+<td>Prepayments</td>
+<td contenteditable="true">2,531,837</td>
+<td contenteditable="true">-</td>
+</tr>
+
+<tr class="total">
+<td>Total trade and other receivables</td>
+<td>28,531,837</td>
+<td>17,000,000</td>
+</tr>
+
+</table>
+
+
+<h4>Split between non-current and current portions</h4>
+
+<table class="financial-table">
+
+<tr>
+<th></th>
+<th>2024</th>
+<th>2023</th>
+</tr>
+
+<tr>
+<td>Current assets</td>
+<td>28,531,837</td>
+<td>17,000,000</td>
+</tr>
+
+</table>
+
+
+<h4>Exposure to currency risk</h4>
+
+<p>
+The net carrying amounts of trade and other receivables excluding non-financial instruments
+are denominated in the following currencies.
+</p>
+
+<table class="financial-table">
+
+<tr>
+<th>Currency</th>
+<th>2024</th>
+<th>2023</th>
+</tr>
+
+<tr>
+<td>Naira</td>
+<td contenteditable="true">26,000,000</td>
+<td contenteditable="true">17,000,000</td>
+</tr>
+
+</table>
+
+
+<h3>7. Share capital</h3>
+
+<table class="financial-table">
+
+<tr>
+<th></th>
+<th>2024</th>
+<th>2023</th>
+</tr>
+
+<tr>
+<td>Minimum – 20,000,000 ordinary shares of ₦1 each</td>
+<td contenteditable="true">20,000,000</td>
+<td contenteditable="true">20,000,000</td>
+</tr>
+
+<tr>
+<td>Issued – Ordinary shares</td>
+<td contenteditable="true">20,000,000</td>
+<td contenteditable="true">20,000,000</td>
+</tr>
+
+</table>
+</div>
+/* page 10 */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1000px;
+  margin: auto;
+  background: white;
+  padding: 40px;
+}
+
+h3 {
+  margin-top: 30px;
+  border-bottom: 2px solid black;
+  padding-bottom: 5px;
+}
+
+h4 {
+  margin-top: 20px;
+}
+
+.financial-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.financial-table th,
+.financial-table td {
+  border-bottom: 1px solid #ccc;
+  padding: 8px;
+  text-align: right;
+}
+
+.financial-table th:first-child,
+.financial-table td:first-child {
+  text-align: left;
+}
+
+.total {
+  font-weight: bold;
+  border-top: 2px solid black;
+}
+
+td[contenteditable] {
+  background: #fff6a5;
+}
+/* page 11 */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1000px;
+  margin: auto;
+  background: white;
+  padding: 40px;
+}
+
+h3 {
+  margin-top: 30px;
+  border-bottom: 2px solid black;
+  padding-bottom: 5px;
+}
+
+h4 {
+  margin-top: 20px;
+}
+
+.financial-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.financial-table th,
+.financial-table td {
+  border-bottom: 1px solid #ccc;
+  padding: 8px;
+  text-align: right;
+}
+
+.financial-table th:first-child,
+.financial-table td:first-child {
+  text-align: left;
+}
+
+.total {
+  font-weight: bold;
+  border-top: 2px solid black;
+}
+
+td[contenteditable] {
+  background: #fff6a5;
+}
+
+/* page 12 */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1000px;
+  margin: auto;
+  background: white;
+  padding: 40px;
+}
+
+h3 {
+  margin-top: 35px;
+  border-bottom: 2px solid black;
+  padding-bottom: 6px;
+}
+
+h4 {
+  margin-top: 25px;
+}
+
+.financial-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.financial-table th,
+.financial-table td {
+  border-bottom: 1px solid #ccc;
+  padding: 8px;
+  text-align: right;
+}
+
+.financial-table th:first-child,
+.financial-table td:first-child {
+  text-align: left;
+}
+
+.total {
+  font-weight: bold;
+  border-top: 2px solid black;
+}
+
+td[contenteditable] {
+  background: #fff6a5;
+}
+
+/* page 13 */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1000px;
+  margin: auto;
+  background: white;
+  padding: 40px;
+}
+
+h3 {
+  margin-top: 35px;
+  border-bottom: 2px solid black;
+  padding-bottom: 6px;
+}
+
+h4 {
+  margin-top: 25px;
+}
+
+.financial-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.financial-table th,
+.financial-table td {
+  border-bottom: 1px solid #ccc;
+  padding: 8px;
+  text-align: right;
+}
+
+.financial-table th:first-child,
+.financial-table td:first-child {
+  text-align: left;
+}
+
+.total {
+  font-weight: bold;
+  border-top: 2px solid black;
+}
+
+.note {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+td[contenteditable] {
+  background: #fff6a5;
+}
+/* page 14 */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1000px;
+  margin: auto;
+  background: white;
+  padding: 40px;
+}
+
+h3 {
+  margin-top: 35px;
+  border-bottom: 2px solid black;
+  padding-bottom: 6px;
+}
+
+h4 {
+  margin-top: 25px;
+}
+
+.financial-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.financial-table th,
+.financial-table td {
+  border-bottom: 1px solid #ccc;
+  padding: 8px;
+  text-align: right;
+}
+
+.financial-table th:first-child,
+.financial-table td:first-child {
+  text-align: left;
+}
+
+.total {
+  font-weight: bold;
+  border-top: 2px solid black;
+}
+
+td[contenteditable] {
+  background: #fff6a5;
+}
+
+/* page 15 */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1000px;
+  margin: auto;
+  background: white;
+  padding: 40px;
+}
+
+h3 {
+  margin-top: 35px;
+  border-bottom: 2px solid black;
+  padding-bottom: 6px;
+}
+
+h4 {
+  margin-top: 25px;
+}
+
+.financial-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.financial-table th,
+.financial-table td {
+  border-bottom: 1px solid #ccc;
+  padding: 8px;
+  text-align: right;
+}
+
+.financial-table th:first-child,
+.financial-table td:first-child {
+  text-align: left;
+}
+
+.total {
+  font-weight: bold;
+  border-top: 2px solid black;
+}
+
+td[contenteditable] {
+  background: #fff6a5;
+}
+
+ul {
+  margin-left: 20px;
+}
+
+/* page 16 */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1000px;
+  margin: auto;
+  background: white;
+  padding: 40px;
+}
+
+h2 {
+  border-bottom: 2px solid black;
+  padding-bottom: 10px;
+}
+
+.value-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.value-table th,
+.value-table td {
+  padding: 8px;
+  border-bottom: 1px solid #ccc;
+  text-align: right;
+}
+
+.value-table td:first-child,
+.value-table th:first-child {
+  text-align: left;
+}
+
+.section {
+  font-weight: bold;
+  background: #eee;
+}
+
+.subsection {
+  font-weight: bold;
+}
+
+.total {
+  font-weight: bold;
+  border-top: 2px solid black;
+}
+
+.grand-total {
+  font-weight: bold;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+}
+
+.description {
+  font-style: italic;
+  text-align: left;
+}
+
+.note {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+td[contenteditable] {
+  background: #fff7b3;
+}
+
+/* page 17 */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1100px;
+  margin: auto;
+  background: white;
+  padding: 40px;
+}
+
+h2 {
+  border-bottom: 2px solid black;
+  padding-bottom: 8px;
+}
+
+.financial-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.financial-table th,
+.financial-table td {
+  border-bottom: 1px solid #ccc;
+  padding: 8px;
+  text-align: right;
+}
+
+.financial-table th:first-child,
+.financial-table td:first-child {
+  text-align: left;
+}
+
+.year-header {
+  font-weight: bold;
+  border-bottom: 2px solid black;
+}
+
+.section {
+  font-weight: bold;
+  background: #eee;
+}
+
+.subsection {
+  font-weight: bold;
+}
+
+.total {
+  font-weight: bold;
+  border-top: 2px solid black;
+}
+
+.grand-total {
+  font-weight: bold;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+}
+
+td[contenteditable] {
+  background: #fff7b3;
+}
